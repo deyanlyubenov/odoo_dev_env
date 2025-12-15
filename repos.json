@@ -1,0 +1,19 @@
+{
+  "repositories": [
+    {
+      "name": "odoo",
+      "url": "git@github.com:odoo/odoo.git",
+      "branch": "18.0",
+      "type": "core",
+      "enabled": true
+    },
+    {
+      "name": "enterprise",
+      "url": "git@github.com:odoo/enterprise.git",
+      "branch": "18.0",
+      "type": "addons",
+      "enabled": true,
+      "requires_auth": true
+    }
+  ]
+}
